@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <name>visual_servo_ur5_alvar_moveit</name>
+  <version>0.1.0</version>
+  <description>The moveit_tutorials package</description>
+  <license>BSD</license>
+
+  <author email="a.nanjangud@surrey.ac.uk">Angadh Nanjangud</author>
+  <author email="p.blacker@surrey.ac.uk">Pete Blacker</author>
+
+  <maintainer email="a.nanjangud@surrey.ac.uk">Angadh Nanjangud</maintainer>
+  <maintainer email="p.blacker@surrey.ac.uk">Pete Blacker</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>pluginlib</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_ros_perception</build_depend>
+  <build_depend>interactive_markers</build_depend>
+  <build_depend>geometric_shapes</build_depend>
+  <build_depend>moveit_visual_tools</build_depend>
+  <build_depend>robotiq_c_model_control</build_depend>
+
+  <run_depend>pluginlib</run_depend>
+  <run_depend>moveit_core</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_ros_perception</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>moveit_visual_tools</run_depend>
+  <run_depend>robotiq_c_model_control</run_depend>
+
+</package>
